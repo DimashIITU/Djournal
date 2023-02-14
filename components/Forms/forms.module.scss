@@ -1,0 +1,42 @@
+.registrateButton {
+  margin-bottom: 20px !important;
+  position: relative;
+  svg {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+.smallButtons {
+  display: flex;
+  gap: 30px;
+  & > * {
+    svg {
+      position: relative;
+      transform: translate(0, 0);
+      left: 0;
+    }
+  }
+}
+.title {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  margin-bottom: 20px !important;
+}
+
+.enterIcon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  &:hover {
+    color: #4683d9;
+  }
+}
+.signButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

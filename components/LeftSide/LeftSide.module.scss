@@ -1,0 +1,22 @@
+.menu {
+  position: fixed;
+  top: 70px;
+  left: 0;
+  width: 200px;
+  background-color: #fff;
+  ul {
+    list-style: none;
+    li {
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        width: 100%;
+        padding: 10px;
+        svg {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}

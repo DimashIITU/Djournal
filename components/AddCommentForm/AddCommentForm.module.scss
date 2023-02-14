@@ -1,0 +1,23 @@
+.fieldRoot {
+  &::after,
+  &::before {
+    display: none;
+  }
+  min-height: 28px;
+  border-radius: 10px;
+  cursor: pointer !important;
+  padding: 0 !important;
+}
+.button {
+  z-index: 1;
+}
+.container {
+  position: relative;
+  margin-top: 17px;
+  padding: 10px 17px 10px 15px !important;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  background-color: #f7f7f7;
+  display: grid;
+  justify-items: end;
+  gap: 15px;
+}
